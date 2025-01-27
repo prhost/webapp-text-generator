@@ -16,6 +16,9 @@ const nextConfig = {
     // https://nextjs.org/docs/api-reference/next.config.js/ignoring-typescript-errors
     ignoreBuildErrors: true,
   },
+  server: {
+    port: 80
+  }
 }
 
 module.exports = nextConfig
