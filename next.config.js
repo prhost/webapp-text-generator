@@ -17,7 +17,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   server: {
-    port: 80
+    port: process.env.PORT
   }
 }
 
