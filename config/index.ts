@@ -4,11 +4,11 @@ export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const IS_WORKFLOW = `${process.env.NEXT_PUBLIC_APP_TYPE_WORKFLOW}` === 'true'
 export const APP_INFO: AppInfo = {
-  title: 'NeurovIA chat',
-  description: 'NeurovIA chat',
+  title: 'Mia',
+  description: 'Mia',
   copyright: '',
   privacy_policy: '',
-  default_language: 'en'
+  default_language: 'pt'
 }
 
 export const API_PREFIX = '/api'
@@ -16,3 +16,5 @@ export const API_PREFIX = '/api'
 export const LOCALE_COOKIE_NAME = 'locale'
 
 export const DEFAULT_VALUE_MAX_LEN = 48
+
+export const isShowPrompt = true
